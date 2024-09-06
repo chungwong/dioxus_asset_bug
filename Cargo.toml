@@ -1,0 +1,11 @@
+[package]
+name = "rayquaza"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["crates/*"]
+resolver = "2"
+
+[workspace.dependencies]
+dioxus = { git = "https://github.com/DioxusLabs/dioxus.git", rev = "9816b40" }
