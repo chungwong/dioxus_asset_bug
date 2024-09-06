@@ -12,7 +12,6 @@ use dioxus::prelude::*;
 #[component]
 pub(crate) fn Styled(children: Element) -> Element {
     rsx! {
-       head::Link { rel: "stylesheet", href: asset!("./assets/tailwind.css") }
        {children}
     }
 }
