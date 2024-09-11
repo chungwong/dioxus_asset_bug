@@ -28,4 +28,3 @@ fn App() -> Element {
         }
     }
 }
-

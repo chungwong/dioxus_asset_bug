@@ -7,12 +7,14 @@
 
 pub mod tabs;
 
-use dioxus::prelude::*;
+use dioxus_html::document::head;
+use dioxus_lib::prelude::*;
+use manganis::mg;
 
 #[component]
 pub(crate) fn Styled(children: Element) -> Element {
     rsx! {
-       head::Link { rel: "stylesheet", href: asset!("./assets/tailwind.css") }
+       head::Link { rel: "stylesheet", href: mg!("./assets/tailwind.css") }
        {children}
     }
 }
