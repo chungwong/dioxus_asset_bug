@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-dioxus-lib = { git = "https://github.com/DioxusLabs/dioxus.git", rev = "9816b40" }
-dioxus-html = { git = "https://github.com/DioxusLabs/dioxus.git", rev = "9816b40" }
+dioxus-lib = { git = "https://github.com/DioxusLabs/dioxus.git", rev = "b20db13" }
+dioxus-html = { git = "https://github.com/DioxusLabs/dioxus.git", rev = "b20db13" }
 manganis = { version = "0.3.0-alpha.1" }
 
 [dev-dependencies]

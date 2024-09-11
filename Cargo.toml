@@ -8,4 +8,5 @@ members = ["crates/*"]
 resolver = "2"
 
 [workspace.dependencies]
-dioxus = { git = "https://github.com/DioxusLabs/dioxus.git", rev = "9816b40" }
+dioxus = { git = "https://github.com/DioxusLabs/dioxus.git", rev = "b20db13" }
+dioxus-cli-config = { git = "https://github.com/DioxusLabs/dioxus.git", rev = "b20db13" }
