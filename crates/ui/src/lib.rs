@@ -6,6 +6,8 @@
 #![warn(clippy::all, clippy::pedantic)]
 
 pub mod tabs;
+pub mod datepicker;
+pub mod drawer;
 
 use dioxus_html::document::head;
 use dioxus_lib::prelude::*;
