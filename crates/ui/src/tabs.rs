@@ -1,6 +1,7 @@
 use dioxus_lib::prelude::*;
 
 use crate::Styled;
+pub const FILE: &'static str = file!();
 
 #[derive(Clone, Debug, PartialEq, Props)]
 pub struct TabItem {

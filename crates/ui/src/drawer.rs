@@ -2,6 +2,7 @@ use dioxus_lib::prelude::*;
 
 use crate::Styled;
 
+pub const FILE: &'static str = file!();
 #[component]
 fn CloseButton(open: Signal<bool>, on_close: Option<EventHandler<MouseEvent>>) -> Element {
     rsx! {
